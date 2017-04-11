@@ -1,0 +1,105 @@
+.canchaBasquet {
+     width: 1000px;
+     height: 500px;
+     border: 3px solid #555;
+     background:orange;
+     position:relative;
+     margin: auto;
+     margin-top: 50px;
+
+}
+.trapecio1{
+    position: absolute;
+    height: 138px;
+    width: 530px;
+    padding: 0px;
+    top: 115px;
+    left: 0px;
+    transform: rotate(0deg) skew(0deg);
+    -webkit-transform: rotate(0deg) skew(0deg);
+
+    border-top: 61px solid transparent;
+    border-left: 173px solid rgba(210, 13, 13, 0.43);
+    border-right: 140px transparent;
+    border-bottom: 61px solid transparent;
+
+}
+.trapecio2{
+  position:absolute;
+    height: 138px;
+    width: 530px;
+    padding: 0px;
+    top: 115px;
+    left: 300px;
+    transform: rotate(0deg) skew(0deg);
+    -webkit-transform: rotate(180deg) skew(0deg);
+
+    border-top: 61px solid transparent;
+    border-left: 173px solid rgba(210, 13, 13, 0.43);
+    border-right: 140px transparent;
+    border-bottom: 61px solid transparent;
+}
+
+.circuloCentral1{
+    	margin-left: 450px;
+    	margin-top: 200px;
+    	width: 100px;
+      height: 100px;
+      border: 1px solid white;
+      background: transparent;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+}
+.lineaVert{
+      margin-left: 500px;
+    	background-color: white;
+    	border-left: 1px solid #ccc;
+    	width:1px;
+    	height:500px;
+      position: absolute;
+
+}
+
+
+.circulo1{
+  margin-left: 120px;
+  margin-top: 200px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  background: orange;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+}
+.circulo2{
+  margin-left: 780px;
+  margin-top: 200px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  background: orange;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+}
+.semicirculo1{
+  margin-top: 7%;
+  width: 270px;
+  height: 370px;
+  border: 2px solid #ffffff;
+  -moz-border-radius: 0 100px 100px 0;
+  -webkit-border-radius: 0 100px 100px 0;
+  border-radius: 0 200px 200px 0;
+  position: absolute;
+}
+
+.semicirculo1d {
+  position:absolute;
+  transform: rotate(180deg);
+  margin-left: 73%;
+}
